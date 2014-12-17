@@ -1,0 +1,18 @@
+{
+  "categories": [
+    "electronics",
+    "books"
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Kindle, 6\" E Ink Display",
+      "categories": "electronics, books"
+    },
+    {
+      "id": 2,
+      "name": "Amazon Fire TV",
+      "categories": "electronics, books"
+    }
+  ]
+}

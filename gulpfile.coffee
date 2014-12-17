@@ -32,11 +32,14 @@ gulp.task('styles', ->
 )
 
 # Scripts
-gulp.task('scripts', ->
-  return gulp.src('app/scripts/application.coffee')
-    .pipe($.coffeeify())
+gulp.task 'scripts', ->
+  gulp.src('app/scripts/application.coffee', { read: false })
+    .pipe($.browserify({
+        transform: ['coffee-reactify'],
+        extensions: ['.coffee'],
+    }))
+    .pipe($.rename('application.js'))
     .pipe(gulp.dest('dist/scripts'))
-)
 
 # Images
 gulp.task('images', ->
@@ -65,14 +68,14 @@ gulp.task('clean', (cb) ->
 )
 
 # Default task
-gulp.task('default', ['clean', 'build'])
+gulp.task('default', ['watch'])
 
 # Webserver
 gulp.task('serve', ->
   gulp.src('dist')
     .pipe($.webserver({
       livereload: true,
-      port: 9000
+      port: 3000
     }))
 )
 
