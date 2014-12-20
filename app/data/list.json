@@ -1,18 +1,67 @@
 {
-  "categories": [
-    "electronics",
-    "books"
-  ],
   "products": [
     {
       "id": 1,
-      "name": "Kindle, 6\" E Ink Display",
-      "categories": "electronics, books"
+      "name": "Kindle",
+      "price": 59.00,
+      "link": "http://www.amazon.com/dp/B00I15SB16",
+      "description": "Kindle is designed as a dedicated e-reader. Indulge your love of reading without interruptions like email alerts and push notifications."
     },
     {
       "id": 2,
+      "name": "Kindle Paperwhite",
+      "price": 99.00,
+      "link": "http://www.amazon.com/dp/B00JG8GOWU",
+      "description": "We think you'll love reading on Kindle Paperwhite, and we want you to experience it yourself. If you're not 100% satisfied, you can return it in new condition within 30 days."
+    },
+    {
+      "id": 3,
+      "name": "Kindle Voyage",
+      "price": 199.00,
+      "link": "http://www.amazon.com/gp/product/B00IOY8XWQ",
+      "description": "Kindle Voyage is our most advanced e-reader ever. Intuitive, simple, and refined, Kindle Voyage lets you get lost in your story."
+    },
+    {
+      "id": 4,
+      "name": "Fire HD 6 Tablet",
+      "price": 79.00,
+      "link": "http://www.amazon.com/dp/B00KC6I06S",
+      "description": "Our most affordable tablet ever—with fast quad-core processor, HD display, front and rear cameras, Dolby Audio, and five color choices."
+    },
+    {
+      "id": 5,
+      "name": "Fire HD 7 Tablet",
+      "price": 114.00,
+      "link": "http://www.amazon.com/gp/product/B00IKPYKWG",
+      "description": "Powerful, full-featured 7-inch Fire HD tablet—fast quad-core processor, HD display, front and rear cameras, stereo speakers, and five color choices."
+    },
+    {
+      "id": 6,
+      "name": "Fire HDX 7\" Tablet",
+      "price": 179.00,
+      "link": "http://www.amazon.com/gp/product/B00BWYQ9YE",
+      "description": "Perfect-color HDX display, plus powerful quad-core processor for fast, fluid performance and immersive entertainment."
+    },
+    {
+      "id": 7,
+      "name": "Fire HDX 8.9 Tablet",
+      "price": 379.00,
+      "link": "http://www.amazon.com/gp/product/B00HCNHDN0",
+      "description": "Incredibly light large-screen tablet—with a stunning HDX display, faster 2.5 GHz quad-core processor, plus Firefly and Mayday."
+    },
+    {
+      "id": 8,
+      "name": "Fire HD Kids Edition Tablet",
+      "price": 159.00,
+      "link": "http://www.amazon.com/dp/B00LORCVSW",
+      "description": "All-new Fire HD 6 or Fire HD 7 tablet—with 1 year of Amazon FreeTime Unlimited, Kid-Proof Case, and a 2-year worry-free guarantee—up to $95 in savings."
+    },
+    {
+      "id": 9,
       "name": "Amazon Fire TV",
-      "categories": "electronics, books"
+      "price": 79.00,
+      "link": "http://www.amazon.com/dp/B00CX5P8FC",
+      "description": "Amazon Fire TV is a tiny box you connect to your HDTV. It's the easiest way to enjoy Netflix, Amazon Instant Video, HBO GO, YouTube.com, games, music, and more."
     }
   ]
 }

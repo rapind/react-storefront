@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "dependencies": {},
   "devDependencies": {
+    "accounting": "^0.4.1",
     "coffee-reactify": "^2.1.0",
     "coffee-script": "^1.8.0",
     "del": "~0.1.3",
