@@ -18,3 +18,7 @@ bower install
 
 gulp
 ```
+
+http://localhost:3000
+
+![Screenshot](screenshot.png?raw=true)
